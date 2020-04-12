@@ -1,0 +1,8 @@
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\bin\Debug\netcoreapp3.1\JogoDaForca.deps.json
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\bin\Debug\netcoreapp3.1\JogoDaForca.dll
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\bin\Debug\netcoreapp3.1\JogoDaForca.pdb
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\obj\Debug\netcoreapp3.1\JogoDaForca.csprojAssemblyReference.cache
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\obj\Debug\netcoreapp3.1\JogoDaForca.AssemblyInfoInputs.cache
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\obj\Debug\netcoreapp3.1\JogoDaForca.AssemblyInfo.cs
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\obj\Debug\netcoreapp3.1\JogoDaForca.dll
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDaForca\obj\Debug\netcoreapp3.1\JogoDaForca.pdb

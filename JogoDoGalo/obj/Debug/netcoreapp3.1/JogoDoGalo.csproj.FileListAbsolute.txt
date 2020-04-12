@@ -1,0 +1,7 @@
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\bin\Debug\netcoreapp3.1\JogoDoGalo.deps.json
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\bin\Debug\netcoreapp3.1\JogoDoGalo.dll
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\bin\Debug\netcoreapp3.1\JogoDoGalo.pdb
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\obj\Debug\netcoreapp3.1\JogoDoGalo.AssemblyInfoInputs.cache
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\obj\Debug\netcoreapp3.1\JogoDoGalo.AssemblyInfo.cs
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\obj\Debug\netcoreapp3.1\JogoDoGalo.dll
+C:\Team\CodeRunner Ficha13\CodeRunner\JogoDoGalo\obj\Debug\netcoreapp3.1\JogoDoGalo.pdb
