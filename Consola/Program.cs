@@ -12,8 +12,8 @@ namespace Consola
         {
             //CodeRunnerEx1.Calculadora();
             //CodeRunnerEx2.JogoDoGalo();
-            //CodeRunnerEx3.JogoDaForca();
-            CodeRunnerEx4.RockPaperSicissors();
+            CodeRunnerEx3.JogoDaForca();
+            //CodeRunnerEx4.RockPaperSicissors();
 
         }
     }
