@@ -9,6 +9,7 @@
     <ProjectReference Include="..\Calculadora\Calculadora.csproj" />
     <ProjectReference Include="..\JogoDaForca\JogoDaForca.csproj" />
     <ProjectReference Include="..\JogoDoGalo\JogoDoGalo.csproj" />
+    <ProjectReference Include="..\RockPaperScissors\RockPaperScissors.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,7 +10,8 @@
         "dependencies": {
           "Calculadora": "1.0.0",
           "JogoDaForca": "1.0.0",
-          "JogoDoGalo": "1.0.0"
+          "JogoDoGalo": "1.0.0",
+          "RockPaperScissors": "1.0.0"
         },
         "runtime": {
           "Consola.dll": {}
@@ -29,6 +30,11 @@
       "JogoDoGalo/1.0.0": {
         "runtime": {
           "JogoDoGalo.dll": {}
+        }
+      },
+      "RockPaperScissors/1.0.0": {
+        "runtime": {
+          "RockPaperScissors.dll": {}
         }
       }
     }
@@ -50,6 +56,11 @@
       "sha512": ""
     },
     "JogoDoGalo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RockPaperScissors/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

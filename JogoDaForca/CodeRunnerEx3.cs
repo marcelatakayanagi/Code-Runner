@@ -6,7 +6,39 @@ namespace JogoDaForca
     {
         public static void JogoDaForca()
         {
-            Boolean a = false, b = false, c = false, d = false, e = false, f = false, g = false, h = false, i = false, j = false, k = false, l = false, m = false, n = false, o = false, p = false, q = false, r = false, s = false, t = false, u = false, v = false, w = false, x = false, y = false, z = false;
+            static void DrawForca(int erros)
+            {
+                Console.Clear();
+                Console.WriteLine($"Você ainda tem {erros} tentativas");
+                Console.WriteLine("________");
+                Console.WriteLine("|      |");
+                Console.WriteLine("|      |");
+                if
+                    (erros >= 6) Console.WriteLine("|       ");
+                else
+                    Console.WriteLine("|      O ");
+                if (erros > 5 && erros < 6)
+                    Console.WriteLine("|      | ");
+                else if (erros > 4 && erros < 5)
+                    Console.WriteLine("|     /| ");
+                else if (erros > 3 && erros < 4)
+                    Console.WriteLine("|     /|\\");
+                else
+                    Console.WriteLine("|        ");
+                if (erros > 2 && erros < 3)
+                    Console.WriteLine("|      | ");
+                else
+                    Console.WriteLine("|       ");
+                if (erros > 1 && erros < 1)
+                    Console.WriteLine("|     / ");
+                else
+                    Console.WriteLine("|       ");
+                if (erros > 0 && erros < 1)
+                    Console.WriteLine("|      /\\");
+                else
+                    Console.WriteLine("|       ");
+                Console.WriteLine("________");
+            }
 
 
             static string RandomWord()
@@ -40,33 +72,68 @@ namespace JogoDaForca
             }
 
             string secretWord = RandomWord();
-            string tentativas = "";
+            string result = "";
             int mistakes = 6;
-
-            //draw forca
-            Console.WriteLine("________");
-            Console.WriteLine("|      |");
-            Console.WriteLine("|      |");
-            Console.WriteLine("|       ");
-            Console.WriteLine("|       ");
-            Console.WriteLine("|       ");
-            Console.WriteLine("|       ");
-            Console.WriteLine("|       ");
-            Console.WriteLine("|       ");
-            Console.WriteLine("|       ");
-            Console.WriteLine("________");
-            Console.WriteLine("Letras Tentadas: " + tentativas);
+            Boolean ended = false;
 
             for (int index = 0; index < secretWord.Length; index++)
             {
-                Console.Write("_ ");
+                result += "_";
             }
 
-            Console.WriteLine("Digite uma letra: ");
-            char letra = Console.ReadKey().KeyChar;
+            while (!ended)
+            {
+                
+                //draw forca
+                DrawForca(mistakes);
+                for (int index = 0; index < secretWord.Length; index++)
+                {
+                    Console.Write(result[index] + " ");
+                }
 
+                Console.WriteLine("Digite uma letra: ");
+                char letra = Console.ReadKey().KeyChar;
+                Console.WriteLine();
 
+                string newResult = "";
+                Boolean acertou = false;
+                for (int index = 0; index < secretWord.Length; index++)
+                {
 
+                    if (result[index] == '_')
+                    {
+                        if (letra == secretWord[index])
+                        {
+                            newResult += letra;
+                            acertou = true;
+                        }
+                        else
+                        {
+                            newResult += '_';
+                        }
+                            
+                    }
+                    else
+                    {
+                        newResult += result[index];
+                    }
+                }
+                if (!acertou) mistakes--;
+                acertou = false;
+                result = newResult;
+
+                if(mistakes == 0)
+                {
+                    Console.WriteLine("Você perdeu. A palavra era: " + secretWord);
+                    ended = true;
+                }
+
+                if (!result.Contains('_'))
+                {
+                    Console.WriteLine("Você ganhou! A palavra era:" + secretWord);
+                    ended = true;
+                }
+            }
 
         }
     }
